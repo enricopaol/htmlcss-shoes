@@ -46,7 +46,13 @@ section.superga{
     background-color: red;
 }
 
-section.tommy-hilfigher
+section.tommy-hilfigher {
+    background-color: #008000;
+}
+
+section.all-star {
+    background-color: yellow;
+}
 /*  FINE STILE SEZIONI */
 
 /* CONTAINER */
@@ -61,8 +67,12 @@ section.tommy-hilfigher
 }
 
 .container h1 {
-    font-size: 4vw;
+    font-size: 3vw;
     color: #ffff00;
+}
+
+#green-text{
+    color: green;
 }
 
 .container img{
