@@ -1,0 +1,36 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* FINE RESET */
+
+/* BODY */
+body {
+    font-family: 'Rubik Mono One', sans-serif;
+}
+/* FINE BODY */
+
+/* HEADER */
+header .numbers {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    box-shadow: 0px 1px 3px black;
+    margin: 0 10px;
+
+    /* Test */
+    background-color: red;
+}
+
+header .circles{
+    position: fixed;
+    top: 25px;
+    right: 15px;
+}
+
+/* FINE HEADER */
