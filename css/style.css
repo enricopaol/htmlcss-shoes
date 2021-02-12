@@ -42,15 +42,15 @@ section {
     position:relative;
 }
 
-section.superga{
+section.bg-red{
     background-color: red;
 }
 
-section.tommy-hilfigher {
+section.bg-green {
     background-color: #008000;
 }
 
-section.all-star {
+section.bg-yellow {
     background-color: yellow;
 }
 /*  FINE STILE SEZIONI */
