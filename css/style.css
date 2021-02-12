@@ -4,6 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    scroll-behavior: smooth;
+}
 /* FINE RESET */
 
 /* BODY */
@@ -13,26 +17,35 @@ body {
 /* FINE BODY */
 
 /* HEADER */
-header .numbers {
+header nav ul {
+    list-style-type:none;
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    z-index: 1;   
+}
+
+header nav li{
+    display: inline-block;
+}
+
+header nav a {
+    display: inline-block;
     width: 50px;
     height: 50px;
     border-radius: 50%;
     text-align: center;
     line-height: 50px;
-    display: inline-block;
     box-shadow: 0px 3px 6px -1px grey;
-    margin: 0 10px;
+    margin-left: 10px;
     background-color: white;
+    text-decoration: none;
+    color: black;
 }
 
-header .circles{
-    position: fixed;
-    top: 25px;
-    right: 15px;
-    z-index: 1;
-    cursor: pointer;
+header nav a:hover {
+    box-shadow: 0px 3px 8px -1px black;
 }
-
 /* FINE HEADER */
 
 /* STILE SEZIONI */
